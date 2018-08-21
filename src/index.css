@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e6e6e6;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.main-container {
+  width: 100%;
+}
+.title-bar {
+    background-color: #000086;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2% 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.expense-table > div, .category-table > div {
+    width: 100%;
+}
+.expense-entry {
+    background-color: white;
+    padding: 1em;
+}
+.expense-category {
+    background-color: #000086;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.expense-entry > div > div:first-child {
+    margin-bottom: 5px;
+}
+i.material-icons {
+    background-color: #000086;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+i.material-icons:hover {
+    background-color: #8d8dd2;
+}
+.total-expense {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.expense-table .header {
+    background-color: white;
+    padding: 15px;
+}
+.btn.arrow i.material-icons, .btn.arrow {
+    padding: 0;
+}
+.btn-createcat {
+    margin-left: 15px;
+}
